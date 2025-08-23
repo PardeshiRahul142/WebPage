@@ -1,0 +1,100 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FirstUI</title>
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      .head {
+        margin-left: 10px;
+      }
+      div,
+      p {
+        font-size: 30px;
+
+      }
+      .unorder {
+        display: flex;
+        list-style: none;
+        gap:15px;
+        margin-left: -15px;
+      }
+      .unorder
+      li
+      a {
+        color: blueviolet;
+        font-weight: 200;
+      }
+      .image {
+        height: 600px;
+        width: 90%;
+        margin: 10px;
+        margin: 20px;
+      }
+      .image
+      img {
+        height:100%;
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+      
+      }
+     .video
+     {
+      height: 200px;
+      width: 400px;
+      margin-left: -25px;
+     }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2 class="head">🌟My Practical Assigment Page</h2>
+      <p style="margin-left: 25px;">Using semantic tags , image , audio , video</p>
+      <div>
+        <ul class="unorder">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+        <div>
+            <h3 style="margin-left: 25px;">Sample Image</h3>
+        <div class="image">
+          <img src="./pad.png" alt="" />
+        </div>
+        </div>
+        <div style="margin-left: 20px;">
+            <h3 >Audio Example</h3>
+             <audio controls>
+            <source src="../audio/sarejaha.mp3" type="audio/mpeg" />
+           </audio>
+        </div>
+
+
+        <div style="margin-left: 20px;">
+          <h3>Video Ecample</h3>
+          <video class="video" controls>
+            <source src="../video/coder.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div>
+        <footer>
+          <h5>© 2025 Assignment | Created for Practice</h5>
+        </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
