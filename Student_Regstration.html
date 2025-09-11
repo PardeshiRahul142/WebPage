@@ -1,0 +1,249 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../imges/Css/Student_Registation.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="heading">Student Registration Form</h1>
+      <div class="form_data">
+        <table>
+          <tr>
+            <td class="text_label">
+              <label for="name">Enter FirstName </label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter firstName"
+                autocomplete="off"
+              />
+              <span class="validation">(Max length 20 charactor)</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="text_label">
+              <label for="lname">Enter LastName </label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="lname"
+                name="name"
+                placeholder="Enter LastName"
+                autocomplete="off"
+              />
+              <span class="validation">(Max length 20 charactor)</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="text_label">
+              <label for="date">Date Of Birth </label>
+            </td>
+            <td>
+              <select name="" id="date">
+                <option value="">Select date</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <select name="" id="month">
+                <option value="">Select month</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <select name="" id="year">
+                <option value="">Select year</option>
+                <option value="1">2005</option>
+                <option value="2">2004</option>
+                <option value="3">2003</option>
+                <option value="4">2002</option>
+                <option value="5">2001</option>
+              </select>
+            </td>
+          </tr>
+
+           <td class="text_label">
+              <label for="email">Enter Email </label>
+            </td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter email address"
+                autocomplete="off"
+              />
+              <span class="validation">(Enter valid email id ex:abc@gamilcom)</span>
+            </td>
+          </tr>
+
+           <td class="text_label">
+              <label for="mob">Enter Mobile Number </label>
+            </td>
+            <td>
+              <input
+                type="number"
+                id="mob"
+                name="mob"
+                placeholder="Enter mobile number"
+                autocomplete="off"
+              />
+              <span class="validation">(Enter valid 10 digit mobile number)</span>
+            </td>
+          </tr>
+          
+          
+             <td class="text_label">
+              <label for="gender">Select gender </label>
+            </td>
+            <td>
+              <label for="male">Male</label>
+              <input type="radio"id="male"name="gender"/>
+              <label for="female">female</label>
+              <input type="radio"id="female"name="gender"/>
+              <label for="other">other</label>
+              <input type="radio"id="other"name="gender"/>          
+            </td>
+          </tr>
+          <td class="text_label">
+              <label for="address">Enter address </label>
+            </td>
+            <td>
+             <textarea name="address" id="address" rows="4"></textarea>
+          </tr>
+
+          <td class="text_label">
+              <label for="city">City </label>
+            </td>
+            <td>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter city"
+                autocomplete="off"
+              />
+              <span class="validation">(max 30 charactor a-z or A-Z)</span>
+            </td>
+          </tr>
+
+            <td class="text_label">
+              <label for="country">Country </label>
+            </td>
+            <td>
+             <select name="Country" id="country">
+              <option value="">Select</option>
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="England">England</option>
+              <option value="AUS">AUS</option>
+              <option value="SA">SA</option>
+             </select>
+          </tr>
+
+            <td class="text_label">
+              <label for="city">Hobbie </label>
+            </td>
+            <td>
+               <label for="coding">Coding</label>
+                <input type="checkbox"id="coding"/>
+
+                 <label for="cricket">Cricket</label>
+                <input type="checkbox"id="cricket"/>
+
+                 <label for="gamming">gamming</label>
+                <input type="checkbox"id="gamming"/>
+
+                 <label for="Singing">Singing</label>
+                <input type="checkbox"id="Singing"/>
+
+                 <label for="others">others</label>
+                <input type="checkbox"id="others"/>
+                <input type="avs">
+            </td>
+          </tr>
+         <tr>
+          <td class="text_label">
+             <label for="">Qualifaction</label>
+          </td>
+          <td>
+                <table border="1" class="nested">
+                  <tr>
+                  <th>se.no</th>
+                  <th>Examination</th>
+                  <th>Board</th>
+                  <th>Percentage</th>
+                  <th>year Passing</th>
+                 </tr>
+                 <tr>
+                  <td>1</td>
+                  <td>Class X</td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                 </tr>
+                  <td>2</td>
+                  <td>Class XI</td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                 </tr>
+                  <td>3</td>
+                  <td>Class XII</td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                 </tr>
+                  <td>4</td>
+                  <td>Graduation</td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                  <td> <input type="text" name="" id=""> </td>
+                 </tr>
+                </table>    
+           
+               <tr>
+               <td class="text_label">
+              <label for="Cource">Cource </label>
+            </td>
+            <td>
+             <label for="BBA">BBA</label>
+             <input type="radio" name="a" id="BBA">
+
+               <label for="BCA">BCA</label>
+             <input type="radio" name="a" id="BCA">
+
+               <label for="BCOM">BCOM</label>
+             <input type="radio" name="a" id="BCOM">
+          </tr>
+
+            <td>
+            </td>
+            <td class="btn">
+           <a href=""class="submit"><i class="fa-solid fa-user-plus fa-shake"></i>Submit</a>
+           <a href=""class="clear"><i class="fa-solid fa-trash fa-shake"></i>Clear</a>
+            </td>
+             
+          </tr>
+           
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
